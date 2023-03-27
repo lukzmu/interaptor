@@ -1,6 +1,6 @@
 ## Interface: 100007
 ## Title: |cff1784d1Interaptor|r
 ## Notes: A simple addon that announces your interrupts.
-## Version: 100007
+## Version: 1.0.4
 ## X-Curse-Project-ID: 746451
 Interaptor.lua
