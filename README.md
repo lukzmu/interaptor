@@ -1,7 +1,5 @@
 # Interaptor
 
-> This project is closed, I don't play World of Warcraft anymore.
-
 **Interaptor** does one and only thing - it uses the `"say"` channel to inform your friends about two things:
 
 - What you interrupted,
