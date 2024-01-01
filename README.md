@@ -9,4 +9,4 @@
 
 ## Attribution
 
-The cool raptor logo icon was downloaded from [FlatIcon](https://www.flaticon.com/) and created by [Marz Gallery](https://www.flaticon.com/authors/marz-gallery).
+The cool raptor logo icon was downloaded from [FlatIcon](https://www.flaticon.com/) from Dinosaur icons created by Freepik gallery.
