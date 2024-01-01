@@ -1,7 +1,5 @@
 # Interaptor
 
-> We no longer play World of Warcraft, so this addon won't be updated.
-
 **Interaptor** does one and only thing - it uses the `"say"` channel to inform your friends about two things:
 
 - What you interrupted,
