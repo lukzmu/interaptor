@@ -69,7 +69,7 @@ function Interaptor:ADDON_LOADED(event, addOnName)
         footerGitHub:SetPoint("BOTTOMLEFT", 7, 26)
         footerGitHub:SetText("https://github.com/lukzmu/interaptor")
 
-        InterfaceOptions_AddCategory(self.panel)
+        Settings.RegisterAddOnCategory(Settings.RegisterCanvasLayoutCategory(self.panel, addOnName))
     end
 end
 
@@ -90,12 +90,12 @@ function Interaptor:BuildMessage(enemySpellId, enemyName, playerSpellId)
     local msgPlayerSpell = " using %s"
     local msgEnd = "!"
 
-    local result = format(msgStart, GetSpellLink(enemySpellId))
+    local result = format(msgStart, C_Spell.GetSpellLink(enemySpellId))
     if self.db.targetName then
         result = result .. format(msgTargetName, enemyName)
     end
     if self.db.playerSpell then
-        result = result .. format(msgPlayerSpell, GetSpellLink(playerSpellId))
+        result = result .. format(msgPlayerSpell, C_Spell.GetSpellLink(playerSpellId))
     end
 
     return result .. msgEnd
