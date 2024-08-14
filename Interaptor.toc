@@ -1,7 +1,7 @@
-## Interface: 110000
+## Interface: 110002
 ## Title: |cff1784d1Interaptor|r
 ## Notes: A simple addon that announces your interrupts.
-## Version: 1.1.9
+## Version: 1.1.11
 ## X-Curse-Project-ID: 746451
 ## IconAtlas: communities-icon-chat
 ## SavedVariables: InteraptorDB
